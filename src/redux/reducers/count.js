@@ -8,7 +8,7 @@ export default function countReducer(preState = initState, action) {
     case INCREMENT:
       return preState + data;
     case DECREMENT:
-      return (preState = data);
+      return preState - data;
     default:
       return preState;
   }
