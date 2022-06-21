@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { increment, decrement } from "../../redux/actions/count";
+import store from "../../redux/store";
 
 export default class Counter extends Component {
   onIncrement = () => {};
